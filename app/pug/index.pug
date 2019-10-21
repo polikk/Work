@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="./css/main.css")
+        title Document
+    body
+       section.main
+            .container
+                header.main_header
+                    .logo
+                        img.logo_img(src='./img/logo.png')
+                        span.logo_title Микоцин
+                    ul.header_list
+                        li.header_item.header--mod
+                            img.header_item_img(src="./img/list_item.png", alt="")
+                            p.header_item_text №1 Для избавления от любого типа грибка
+                        li.header_item
+                            img.header_item_img(src="./img/list_item2.png", alt="")
+                            p.header_item_text Рекомендован дерматологами  
+                        li.header_item
+                            img.header_item_img(src="./img/list_item3.png", alt="")
+                            p.header_item_text 13000+ довольных клиентов за 2018 год
+                .main_wrap
+                    .main_wrap_about
+                        h1.about_title  Комплексное избавление от грибка —
+                            p.about_title_desq
+                                span.about_mod_orange изнутри
+                                span.about_mod  и 
+                                span.about_mod_green снаружи 
+                        .about_text
+                            .about-item 2в1
+                            p.about-desq Комплекс Микоцин 
+                                span.about_desq_mod устраняет зуд, неприятный запаx
+                                |  и&nbsp;возвращает эстетичный вид
+                        .about_text
+                            .about-item 1
+                            p.about-desq
+                                span.about_desq_mod.desq_mod_orange Таблетки
+                                |  Микоцин&nbsp;
+                                span.about_desq_mod   уничтожают все виды грибка
+                                |   на ногтях и коже
+                        .about_text
+                            .about-item 2
+                            p.about-desq
+                                span.about_desq_mod.desq_mod__green Гель
+                                |  Микоцин&nbsp;
+                                span.about_desq_mod  восстанавливает кожу
+                                |  и&nbsp;создает на ней
+                                span.about_desq_mod  защитный барьер
+                    .main_wrap_form
+                        .form_img Бесплатно
+                            img.form_img_top(src="./img/form_img.svg", alt="", srcset="")
+                        p.form_title Успейте заказать со скидкой
+                            span.form_title_date до 10.09.2018
+                        .form_price
+                            .form_price_old старая цена
+                                span.form_old_price_number 918 ₽
+                            .form_price_new новая цена 
+                                span.form_new_price_number 459  ₽
+                        form.form(action="", method="post")
+                            .form_your_name
+                                input.form_name(type="name",placeholder='Имя', name="name")
+                            .form_your_number
+                                input.form_number(type="tel", name="phone",placeholder='Телефон')
+                            .form_button
+                                button.form_button_submit(type="submit") Заказать
+                                    span.form_button_subtitle со скидкой
+                        span.form_about Осталось 
+                            span.form_about_numer 10
+                            |  упаковок со скидкой
+                        p.form_defense Ваши данные защищены!
+                            img.form_defense_img(src="./img/forma_def.svg", alt="")
+                .main_tablets
+                    img.tablets_img(src="./img/tablets.png", alt="")
+                    span.tablest_price.orange 299 ₽
+                    img.tablets_img_two(src="./img/tablets1.png", alt="")
+                    span.tablest_price.green 299 ₽
+    section.dengerous
+        .container
+            h2.dengerous_title Грибок – это опасная инфекция
+            p.dengerous_subtitle которая угрожает вам и вашим близким, ведь с каждым днем грибок приводит к:
+            .dengerous_card
+                .dengerous_wrap
+                    .dengerous_card_item.item_first Сложным формам аллергии
+                        img.card_img(src='./img/dengerous.jpg')  
+                    p.dengerous_wrap_about  Может появится сильная реакция  на привычную пищу, одежду, средства гигиены
+                .dengerous_wrap
+                    .dengerous_card_item.item_next Потере ногтя и ампутации пальца
+                        img.card_img(src='./img/dengerous1.jpg') 
+                    p.dengerous_wrap_about После полного разрушения ногтя грибок распространяется на палец, что приводит к его ампутации 
+                .dengerous_wrap  
+                    .dengerous_card_item.item_last Тяжелому поражению  внутренних органов
+                        img.card_img(src='./img/dengerous2.jpg')  
+                    p.dengerous_wrap_about  Может привести к повреждениям мозга, слепоте, отказу печени, почек и сердца
+            .dengerous_footer
+                span.dengerous_footer_title Статистика:
+                span.dengerous_footer_text  каждые 60 секунд врачи диагностируют опасные поражения внутренних органов,вызванные грибком, у 1-го пациент
+    section.about_disease
+        .container
+            h2.about_disease_title Почему большинство средств против грибка малоэффективны 
+            .disease_card
+                .disease_card_wrap
+                    .disease_img
+                        img.disease_img_mod(src="./img/how.svg", alt="")
+                    p.disease_wrap_title Чудо-средства
+                    p.disease_wrap_subtitle Обещают, что избавят от грибка меньше, чем за месяц, хотя это невозможно. 
+                    p.disease_wrap_deng Но
+                    p.disease_wrap_about.mod--first Ноготь – это роговой слой кожи. Он не имеет живых клеток. Часть ногтя, которая уже поражена грибком, не может выздороветь до полного его отрастания. Единственный способ вылечить грибок – 
+                        span.disease_wrap_about-mod подавлять его распространение все время,пока ноготь не отрастет заново.
+                        | Для этого требуется 4-6 месяцев.
+                .disease_card_wrap
+                    .disease_img
+                        img.disease_img_mod(src="./img/how1.svg", alt="")
+                    p.disease_wrap_title Наружные средства
+                    p.disease_wrap_subtitle Способны устранить внешние проявления грибка.
+                    p.disease_wrap_how (кремы, лаки, пластыри)
+                    p.disease_wrap_deng Но
+                    p.disease_wrap_about.mod--second Очаг заражения находится под ногтевой пластиной, а наружные средства  не способны его достичь - они действуют только на на верхнем слое ногтя, поэтому
+                        span.disease_wrap_about-mod  не способны избавить от грибка. 
+                        | Для повышения их эффективности рекомендуется
+                        span.disease_wrap_about-mod  спиливать ноготь полностью,
+                        | но это больно, некрасиво и совершенно
+                        span.disease_wrap_about-mod  не дает гарантий выздоровления.
+                .disease_card_wrap
+                    .disease_img
+                        img.disease_img_mod(src="./img/how2.svg", alt="")
+                    p.disease_wrap_title Внутренние средства
+                    p.disease_wrap_subtitle Убивают грибковую инфекцию в организме.
+                    p.disease_wrap_how (таблетки, саше, капли)
+                    p.disease_wrap_deng Но
+                    p.disease_wrap_about.mod--last
+                        span.disease_wrap_about-mod Могут подействовать только при длительном использовании 
+                        |   (6 - 8 месяцев). За это время внутренние средства в 93% случаев наносят
+                        span.disease_wrap_about-mod  серьезный ущерб печени,
+                        |вызывают сыпь, отеки, диарею, рвоту. К тому же, каждое средство эффективно только против одной группы грибка из 4000 видов.
+            .disease_footer 
+                p.disease_footer_about Даже если вы используете наружные и внутренние средства одновременно, это
+                    span.disease_footer_text  не гарантирует избавления от грибка:
+                    |они могут конфликтовать между собой по составу и блокировать действие друг друга или быть неэффективными против вашего типа грибка.
+    section.effective
+        .container
+            h2.effective_title Почему таблетки
+                span.effective_title_orange  Микоцин
+                |  от грибка так эффективны?
+            p.effective_subtitle Другие средства не дают полную защиту от грибковых инфекций и могут быть опасны
+            .effective_card
+                .effective_wrap
+                    .effective_img
+                        img.effective_image(src="./img/effective_card.png", alt="", srcset="")
+                    p.effective_wrap_title Кремы и мази
+                    p.effective_wrap_about.effective_about_first
+                        span.effective_about_mod  Не лечат грибок,потому что не проникают в ногтевую пластину.    
+                        | Только временно избавляют от симптомов инфекций. Могут вызвать сильную аллергию  и раздражения на коже.
+                .effective_wrap
+                    .effective_img
+                        img.effective_image.effective_image_mod(src="./img/effective_card1.png", alt="", srcset="")
+                    p.effective_wrap_title Народные методы
+                    p.effective_wrap_about Помогают только в редких случаях. 
+                        span.effective_about_mod Могут причинить вред коже  и ногтям. 
+                        | Не предотвращают повторные заражения грибком.   
+                .effective_wrap.effective_wrap_green
+                    .effective_img.effective_img_green
+                        img.effective_image(src="./img/effective_card2.png", alt="", srcset="")
+                    p.effective_wrap_title Таблетки
+                    p.effective_wrap_about.effective_about_last
+                        span.effective_about_mod    Действуют против всех видов грибков.
+                        |  Быстро снимают неприятные  симптомы и уничтожают инфекцию изнутри вне зависимости от области  заражения грибком. Надолго  защищают от повторных заражений.
+            .effective_footer
+                p.effective_footer_text Зачем лечить сложнее, дольше и дороже, если есть 
+                    span.effective_footer_text_mod Микоцин?
+    section.how_use
+        .container
+            h2.how_use_title Как применять 
+                span.how_use_title_mod Микоцин
+            .use_card
+                img.use_tablets_image(src="./img/use.png", alt="", srcset="")
+                .how_it_use
+                    .how_it_use_wrap
+                        .use_wrap_image
+                            img.use_wrap_img(src="./img/use_tabl.svg", alt="", srcset="")
+                        p.use_wrap_text Принимать по 1 таблетке  утром и вечером
+                    .how_it_use_wrap
+                        .use_wrap_image
+                            img.use_wrap_img(src="./img/use_tabl1.svg", alt="", srcset="")
+                        p.use_wrap_text Запивать стаканом воды
+                    .how_it_use_wrap
+                        .use_wrap_image
+                            img.use_wrap_img(src="./img/use_tabl2.svg", alt="", srcset="")
+                        p.use_wrap_text Курс – от 30 дней
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="./js/main.js")

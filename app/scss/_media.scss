@@ -1,0 +1,179 @@
+@media(max-width:1150px){
+   
+    .main{
+      
+        .main_wrap{
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        .main_tablets{
+            position: relative;
+            left: 0;
+            top:0;
+            justify-content: center;
+        }
+        .main_tablets .orange{
+            left: 52%;
+        }
+        .main_tablets .green{
+            left: 42%;
+        }
+    }
+    .dengerous_card{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .dengerous_wrap{
+            margin: 20px;
+        }
+    }
+.about_disease .disease_card{
+        flex-wrap: wrap;
+        
+    }
+    .about_disease .disease_card_wrap{
+        margin: 30px;
+    }
+    
+    .effective_card{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }  
+    .effective_card .effective_wrap {
+        margin: 20px;
+    }
+    .how_use .use_card{
+        flex-wrap: wrap;
+    }
+    .dengerous_footer{
+        margin: 30px;
+    }
+    .about_disease .disease_footer{
+        margin: 30px;
+    }
+    .effective_footer{
+        margin: 30px;
+    }
+}
+@media(max-width:850px){
+    .how_use .use_card .how_it_use .how_it_use_wrap{
+        margin: 20px;
+    }
+    .dengerous_footer::after{
+        right: 35%;
+    }
+    .effective_card .effective_wrap{
+        margin:40px 20px;
+    }
+}
+@media(max-width:750px){
+    .main_wrap_form .form_img{
+        background-color: $white;
+        border-top: 9px solid $white;
+    }
+    .about_disease .disease_footer::after{
+        right: 35%;
+    }
+    .main_wrap_about{
+        margin: 20px;
+    }
+    .main_wrap_form{
+        margin: 20px; 
+    }
+    .main .main_wrap{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main_header{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .main .header_list .header_item{
+        margin-left: 0rem;
+    }
+    .main .header_list{
+        margin: 20px;
+    }
+}
+@media(max-width:600px){
+    .about_disease .disease_footer{
+        padding: 40px 20px
+    }
+    .about_disease .disease_footer::after{
+        right: 30%;
+    }
+    .dengerous_footer{
+        padding: 20px 20px
+    }
+    .main .main_tablets{
+        max-width: 600px;
+        width: 100%;
+    }
+    .dengerous_footer::after{
+        right: 25%;
+       
+        top: -35px;
+    }
+    .tablets_img{
+        max-width: 400px;
+        width: 100%;
+    }
+    .tablets_img_two{
+        max-width: 300px;
+        width: 100%;
+    }
+    .how_use .use_card .how_it_use .how_it_use_wrap .use_wrap_image{
+        max-width: 120px;
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .main .header_list .header_item{
+        margin-bottom: 10px;
+    }
+    .about_disease .disease_footer::after{
+        right: 25%;
+    }
+    .main .main_tablets{
+        margin-top: 20px;
+    }
+    .about_disease_title{
+        font-size: 2rem;
+    }
+    .header_list{
+        flex-wrap: wrap;
+    justify-content: space-around;
+    }
+}
+@media(max-width:400px){
+    .about_disease .disease_footer{
+        padding:40px 0;
+    }
+    .dengerous_footer::after{
+        right: 15%;
+    }
+    .main .tablets_img_two{
+        left: 0;
+    }
+    .about_disease .disease_card_wrap .disease_img{
+        left: 37%;
+    }
+}
+@media(max-width:350px){
+    
+    .about_disease .disease_footer{
+        padding:40px 0;
+    }
+    .effective_card .effective_wrap .effective_img{
+        left: 30%;
+    }
+    .about_disease .disease_footer::after{
+        right: 7%;
+    }
+    .dengerous_footer::after{
+        right: 10%;
+    }
+    .about_disease .disease_card_wrap .disease_img{
+        left: 35%;
+    }
+}
